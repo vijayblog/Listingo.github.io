@@ -1,0 +1,589 @@
+@charset="utf-8";
+
+body{
+
+	margin: 0;
+	padding: 0;
+}
+
+
+/*start header cording*/
+
+
+.banner{
+
+		background-image: url("../img/banner/bradcam2.png");
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center;
+		height: 500px;
+		width: 100%;
+	}
+
+	
+	.filter{
+
+		width: 100%;
+		height: 500px;
+		background-color:rgba(0,0,66,0.7);
+
+	}
+
+
+	.home{
+
+		color: white;
+	}
+
+	.home:hover{
+
+		color: red;
+	}
+	@media(max-width: 768px){
+
+		.home{
+
+		color:black;
+	}
+
+	}
+	
+	.nav-menu{
+
+		margin-left: 300px;
+	}
+
+
+@media(max-width: 768px){
+
+	.nav-menu{
+
+		margin-left:0px;
+		background-color:white;
+	}
+
+}
+
+#butt{
+
+	width: 120px;
+	height: 45px;
+}
+	@media(max-width: 768px){
+
+		#butt{
+
+			display: none;
+		}
+	}
+
+
+
+	.find{
+
+		color: white;
+		text-align: center;
+		font-family: cursive;
+		font-size: 70px;
+		margin-top: 220px;
+		font-weight: bold;
+	}
+
+	@media(max-width: 768px){
+
+		.find{
+
+		color: white;
+		text-align: center;
+		font-family: cursive;
+		font-size: 40px;
+	}
+
+	}
+
+/*close header cording */
+
+/*start section cording*/
+
+	.blog-big{
+
+		width: 100%;
+		height: 650px;
+
+	}
+
+	.blog-img1{
+
+		width: 100%;
+		height: 400px;
+		position: relative;
+	}
+
+	.blog-img1 img{
+
+		width: 100%;
+		height: 400px;
+	}
+
+	.blog-details{
+
+		width: 100%;
+		height: 250px;
+
+	}
+
+	.blog-details h4{
+
+		color: black;
+		font-family: cursive;
+		margin:80px 0px 0px 50px;
+		font-weight: bold;
+		cursor: pointer;
+	}
+
+	.blog-details h4:hover{
+
+		color: red;
+	}
+
+	@media(max-width: 768px){
+
+
+		.blog-details h4{
+
+		color: black;
+		font-family: cursive;
+		margin:80px 0px 0px 50px;
+		font-weight: bold;
+		cursor: pointer;
+		font-size:19px;
+	}
+
+	.blog-details h4:hover{
+
+		color: red;
+	}
+
+	}
+
+	.blog-details p{
+
+		color:#4D4D4D;
+		font-family: sans-serif;
+		margin:30px 0px 0px 50px;
+		line-height: 30px;
+	}
+
+	.jan15{
+
+		width: 100px;
+		height: 100px;
+		background-color: #EB183F;
+		position: absolute;
+		bottom: -30px;
+		border-radius: 5px;
+		left: 50px;
+	}
+
+	.search-keyword{
+
+		width: 96%;
+		height: 170px;
+		background-color: #f1f1f1;
+		margin: 0px auto;
+		padding: 20px 20px 0px 20px;
+	}
+
+	.input-group input{
+
+		height: 50px;
+		border:1px solid #ccc;
+		padding-left: 20px;
+
+	}
+
+	.search{
+
+		width: 295px;
+		height: 60px;
+		color:#F91842;
+		border:1px solid #F91842;
+	}
+
+	.search:hover{
+
+		background-color:#F91842;
+		color: white;
+	}
+
+
+	@media(max-width: 768px){
+
+		.search{
+
+		width:100%;
+		height: 60px;
+		color:#F91842;
+		border:1px solid #F91842;
+	}
+
+	.search:hover{
+
+		background-color:#F91842;
+		color: white;
+	}
+	}
+
+	.category{
+
+		width: 96%;
+		height: 550px;
+		background-color: #f1f1f1;
+		margin: 30px auto;
+	}
+
+	.food{
+
+		color: #4D4D4D;
+		margin-left: 20px;
+		font-size: 18px;
+		font-family: sans-serif;
+	}
+
+	.food:hover{
+
+		color:#F91842;
+		text-decoration: none; 
+	}
+
+
+	.recent{
+
+		width: 96%;
+		height: 550px;
+		background-color: #f1f1f1;
+		margin: 30px auto;
+	}
+
+	.re-post{
+
+		width: 90%;
+		height: 100px;
+		margin:10px auto;
+	}
+
+	.from-life h3{
+
+		font-size: 18px;
+		font-family: cursive;
+		margin-left: 15px;
+		margin-top: 15px;
+		cursor: pointer;
+	}
+
+	.from-life h3:hover{
+
+		color: red;
+		transition: 0.5s;
+	}
+
+
+	.from-life p{
+
+		margin-left: 15px;
+		color:gray;
+	}
+
+	.tag-cloud{
+
+		width: 100%;
+		height: 240px;
+		background-color: #f1f1f1;
+		margin: 70px auto;
+	}
+
+	.tag-cloud h3{
+
+		font-family: cursive;
+		font-size: 20px;
+		padding: 20px 0px 0px 20px;
+	}
+
+	
+	.tag-cloud button{
+
+		margin-left: 20px;
+		margin-top: 10px;
+		background-color: white;
+		border:1px solid #ccc;
+		color: gray;
+	}
+
+	.tag-cloud button:hover{
+
+		background-color: red;
+		color: white;
+		border:transparent;
+	}
+
+	.instagram-feed{
+
+		width: 100%;
+		height: 300px;
+		background-color: #f1f1f1;
+		margin: 50px auto;
+		padding: 15px 10px 0px 10px;		
+	}
+
+	.instagram-feed h3{
+
+		font-family: cursive;
+		font-size: 20px;
+	}
+
+	.instagram-feed img{
+
+		padding: 5px;
+	}
+
+	.email-keyword{
+
+		width: 96%;
+		height: 220px;
+		background-color: #f1f1f1;
+		margin: 0px auto;
+		padding: 20px 20px 0px 20px;
+	}
+
+
+	.email-keyword h3{
+
+
+		font-family: cursive;
+		font-size: 20px;
+	}
+
+
+
+	.email-sub{
+
+		width: 282px;
+		height: 60px;
+		color:#F91842;
+		border:1px solid #F91842;
+		background-color: white;
+	}
+
+	.email-sub:hover{
+
+		background-color:#F91842;
+		color: white;
+	}
+
+
+	@media(max-width: 768px){
+
+		.email-sub{
+
+		width:100%;
+		height: 60px;
+		color:#F91842;
+		border:1px solid #F91842;
+		background-color: white;
+	}
+
+	.email-sub:hover{
+
+		background-color:#F91842;
+		color: white;
+	}
+
+	}
+
+/*close section cording*/
+
+
+/*start footer cording*/
+
+#i-icon{
+
+	color:white;
+	background-color:#667fff;
+	padding: 15px;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+}
+
+#i-icon:hover{
+
+	background-color:#F91842;
+	transition: 0.5s;
+}
+
+
+#c-icon{
+
+	color:white;
+	background-color:#ff5748;
+	padding: 13px;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+	margin-left: 10px;
+}
+
+#c-icon:hover{
+
+	background-color:#F91842;
+	transition: 0.5s;
+}
+
+
+#o-icon{
+
+	color:white;
+	background-color:#37ebed;
+	padding: 14px;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+	margin-left: 10px;
+}
+
+#o-icon:hover{
+
+	background-color:#F91842;
+	transition: 0.5s;
+}
+
+
+#n-icon{
+
+	color:white;
+	background-color:#c40079;
+	padding: 13px;
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+	cursor: pointer;
+	margin-left: 10px;
+}
+
+#n-icon:hover{
+
+	background-color:#F91842;
+	transition: 0.5s;
+}
+
+
+.service{
+
+	margin-top: 150px;
+}
+
+
+@media(max-width: 768px){
+
+	.service{
+
+	margin-top: 50px;
+}
+
+}
+
+.service p{
+
+	color:gray;
+}
+
+.service p:hover{
+
+	color:white;
+}
+
+
+.service1{
+
+	margin-top: 150px;
+}
+
+@media(max-width: 768px){
+
+	.service1{
+
+	margin-top: 50px;
+}
+
+}
+.service1 p{
+
+	color:gray;
+}
+
+.service1 p:hover{
+
+	color:white;
+}
+
+.mail{
+
+	width: 100%;
+	height: 55px;
+	border:1px solid gray;
+	margin-top: 48px;
+	border-radius: 8px;
+}
+
+
+
+.mail input{
+
+	background-color: transparent;
+	border:none;
+	outline: none;
+	padding-top:2px;
+	padding-left: 10px;
+}
+
+.mail button{
+
+	width: 100px;
+	height: 40px;
+	background-color: red;
+	color: white;
+	margin-left:60px;
+	margin-top: 6px;	
+}
+
+@media(max-width: 768px){
+
+	.mail button{
+
+	width: 100px;
+	height: 40px;
+	background-color: red;
+	color: white;
+	margin-left:130px;
+	margin-top: 6px;	
+}
+}
+
+@media(max-width: 375px){
+
+	.mail button{
+
+	width: 100px;
+	height: 40px;
+	background-color: red;
+	color: white;
+	margin-left:5px;
+	margin-top: 6px;	
+}
+}
+
+/*close footer cording*/
+
